@@ -32,7 +32,7 @@ const useStore = create<DBStore>((set, get) => ({
           set({
             db,
             facesCollection,
-            votesCollection, 
+            votesCollection,
             isReady: true,
             faces: facesCollection.find(),
             votes: votesCollection.find(),
