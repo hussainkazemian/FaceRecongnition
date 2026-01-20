@@ -9,7 +9,7 @@ const Layout = () => {
           <img src="/tauri.svg" alt="logo" className="w-12 h-12" />
         </div>
         <div>
-          <h1 className="text-2xl">Facevote</h1>
+          <h1 className="text-2xl">Facevote V2</h1>
         </div>
         <div>
           <NavLink to={'/'}>
